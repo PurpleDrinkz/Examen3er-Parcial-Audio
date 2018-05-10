@@ -196,26 +196,10 @@ namespace Grabacion
             }
             else if (frecuenciaFundamental > 1080 && frecuenciaFundamental < 1120)
             {
-                Stopwatch stopwatch = new Stopwatch();
-
-                // Begin timing.
-                stopwatch.Start();
-
-                long tiempito = stopwatch.ElapsedMilliseconds;
-                // Do something.
-                if(tiempito = 3000)
-                {
-
-                }
-
-                // Stop timing.
-                stopwatch.Stop();
-
-
-
+                
                 txtFrecuencias.Text += "K";
                 
-            }
+            }    
             else if (frecuenciaFundamental > 1180 && frecuenciaFundamental < 1220)
             {
                 txtFrecuencias.Text += "L";
